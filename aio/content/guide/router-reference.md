@@ -6,7 +6,7 @@ The following sections highlight some core router concepts.
 
 ### Router imports
 
-The Angular Router is an optional service that presents a particular component view for a given URL.
+The Angular Router is an optional service that renders a particular component view for a given URL.
 It is not part of the Angular core and thus is in its own library package, `@angular/router`.
 
 Import what you need from it as you would from any other Angular package.
@@ -43,7 +43,7 @@ The router parses and builds the final URL for you, which allows you to use both
 
 The `:id` in the second route is a token for a route parameter.
 In a URL such as `/hero/42`, "42" is the value of the `id` parameter.
-The corresponding `HeroDetailComponent` uses that value to find and present the hero whose `id` is 42.
+The corresponding `HeroDetailComponent` uses that value to find and display the hero whose `id` is 42.
 
 The `data` property in the third route is a place to store arbitrary data associated with
 this specific route.
